@@ -224,7 +224,7 @@ footer {
     width: 100%;
     margin: 20px 2.5%;
     border-radius: 20px;
-    height: auto%;
+    height: auto;
   }
 }
 .home .visit-planets {
@@ -279,4 +279,19 @@ footer {
   width: 100%;
   height: auto;
   border-radius: 10px;
+}
+@media (max-width:500px) {
+  .home .walk {
+    flex-direction: column;
+    padding: 10px 10px;
+  }
+  .home .walk .walk-text {
+    order: 2;
+    width: 100%;
+  }
+  .home .walk .walk-img {
+    order: 1;
+    width: 100%;
+    margin-left: 0%;
+  }
 }

@@ -37,7 +37,7 @@
         width: 100%;
         margin: 20px 2.5%;
         border-radius: 20px;
-        height: auto%;
+        height: auto;
       }
     }
   }
@@ -60,6 +60,8 @@
     padding: 50px 60px;
     display: flex;
     justify-content: center;
+
+
 
     .walk-text {
       .flex-box(column,nowrap,flex-start,flex-start,initial);
@@ -91,6 +93,20 @@
         width: 100%;
         height: auto;
         border-radius: 10px;
+      }
+    }
+
+    @media @mobile{
+      flex-direction: column;
+      padding: 10px 10px;
+      .walk-text{
+        order:2;
+        width:100%;
+      } 
+      .walk-img{
+        order:1;
+        width:100%;
+        margin-left: 0%;
       }
     }
   }
