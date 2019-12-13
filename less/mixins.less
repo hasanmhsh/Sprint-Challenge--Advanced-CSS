@@ -10,4 +10,12 @@
     align-items: @align-items;
     align-content:@align-content;
 }
+.btn-style(@background-color,@text-color,@hover-background-color,@hover-text-color){
+    background: @background-color;
+    color: @text-color;
+    &:hover{
+        color:@hover-text-color;
+        background: @hover-background-color;
+    }
+}
 
