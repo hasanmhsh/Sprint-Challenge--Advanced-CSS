@@ -296,3 +296,13 @@ footer {
     margin-bottom: 20px;
   }
 }
+body {
+  background-image: url("../img/space-bk.jpg");
+}
+body .background-filter {
+  background: white;
+  opacity: 0.5;
+}
+body .filter-canceler {
+  opacity: 0.5;
+}
