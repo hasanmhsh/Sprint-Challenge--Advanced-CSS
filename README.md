@@ -34,13 +34,24 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+Answer1 : Adaptive website layout provide media queries styles for different screen sizes using normal pixel (px) unit to define lengths and font sizes also responsive design provide media queries styles for different screen sizes in addition to responsive units such as percent (%) , em , rem and point (pt) for lengthes and font sizes
+
 2. Describe what it means to be mobile first vs desktop first.
+
+Answer2 : Mobile first menans putting styles of mobile layout without media queries before desktop styles , and encapsulating desktop styles inside min-width media queries so that desktop styles will override mobile styles if min-width condition become true.
+Desktop first is the opposite concept , in which desktop styles is written above mobile styles, and mobile style is enapsulated inside media queries of max-width so that if max-width condition becomes true , mobile styles will override desktop styles.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+Answer3 :It means font size of html and its inherting children will equal to (0.625 times root font size value).
+
 4. How would you describe preprocessing to someone new to CSS?
 
+Answer4 : A set of rules which facilitates the development processes is used to write the code then preprocessor compiler program is used to convert this code to the one which will be used in the project.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+Answer5 : The favourite concept to me for preprocessing is , it is just a technique to facilitates development process but not a part of project , and the annoying concept is that it is a new technology inside the project.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
